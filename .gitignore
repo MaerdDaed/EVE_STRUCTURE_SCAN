@@ -1,0 +1,21 @@
+# 采集数据与日志（含其他玩家军团/建筑名等游戏数据，且体积大）
+output/
+runs/
+constellation-report-*.json
+*.log
+
+# 原始客户端 UI 快照（完整界面转储，可能含角色相关界面文本；仅本机调试用）
+ui-tree*.json
+snapshot-forge-*.json
+info-panel-location.json
+ui-root-address.txt
+
+# 外部二进制与打包产物（read-memory-64-bit.exe 约 112 MB，从 Sanderling 发行版获取）
+*.exe
+*.pdb
+*.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
